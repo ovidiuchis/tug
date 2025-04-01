@@ -6,7 +6,7 @@ A simple, stylish, personal URL shortener built with Node.js, Express, and EJS �
 
 ## 🌐 Live Demo
 
-👉 Try it live: ?
+👉 Try it live: [at this random Render URL](https://tug-kro1.onrender.com)
 
 > Hosted on [Render](https://render.com), free tier.
 
