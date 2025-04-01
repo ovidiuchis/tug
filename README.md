@@ -7,8 +7,9 @@ A simple, stylish, personal URL shortener built with Node.js, Express, and EJS �
 ## 🌐 Live Demo
 
 👉 Try it live: [at this random Render URL](https://tug-kro1.onrender.com)
-
+If app was offloaded due to inactivity, be patient for the startup- it's a free plan 🤫
 > Hosted on [Render](https://render.com), free tier.
+
 
 ---
 
@@ -54,7 +55,7 @@ project-root/
 
 ```bash
 git clone https://github.com/ovidiuchis/tug.git
-cd link-shortener
+cd tug
 npm install
 node server.js
 ```
