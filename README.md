@@ -62,9 +62,14 @@ node server.js
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
+## ✅ TODO
 
+🔄 Replace data.json with MongoDB Atlas to persist links across deployments
 
+---
 ## 📄 License
 
 MIT — do whatever you want with it.
 Credits welcome, but not required. 😄
+
+
