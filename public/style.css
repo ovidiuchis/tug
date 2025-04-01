@@ -9,12 +9,13 @@ body {
 }
 .container {
   background: white;
-  padding: 2rem 3rem;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 h1 {
   margin-bottom: 1rem;
@@ -58,9 +59,8 @@ button:hover {
 
 .short-link-container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 10px;
   flex-wrap: wrap;
   margin-top: 0.5rem;
 }
@@ -76,10 +76,10 @@ button:hover {
   background: #4f46e5;
   border: none;
   color: white;
-  padding: 0.4rem 0.6rem;
+  padding: 5px 10px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 16px;
 }
 
 .copy-btn:hover {
@@ -101,4 +101,57 @@ button:hover {
 .footer a {
   color: #4f46e5;
   text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .short-link-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copy-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+/* Styles for larger mobile devices (e.g., iPhone 14 Pro Max) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .short-link-container {
+    gap: 15px;
+  }
+
+  .copy-btn {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
 }
