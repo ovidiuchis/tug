@@ -1,4 +1,4 @@
-# 🔗 Link Shortener
+# 🔗 Tiny URL Generator (TUG) = Link Shortener
 
 A simple, stylish, personal URL shortener built with Node.js, Express, and EJS — featuring persistent storage, copy-to-clipboard.
 
