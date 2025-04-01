@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4338ca;
+}
+.short-url {
+  margin-top: 1rem;
+}
+.short-url a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+.result-card {
+  background: #f0f4ff;
+  border: 1px solid #c3dafe;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.short-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.short-link-container a {
+  font-size: 1.1rem;
+  color: #1d4ed8;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.copy-btn {
+  background: #4f46e5;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.copy-btn:hover {
+  background: #4338ca;
+}
+
+.copy-msg {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #4f46e5;
+  text-decoration: none;
+}
