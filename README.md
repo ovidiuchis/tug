@@ -6,7 +6,7 @@ A simple, stylish, personal URL shortener built with Node.js, Express, and EJS �
 
 ## 🌐 Live Demo
 
-👉 Try it live: ---
+👉 Try it live: ?
 
 > Hosted on [Render](https://render.com), free tier.
 
@@ -36,12 +36,35 @@ A simple, stylish, personal URL shortener built with Node.js, Express, and EJS �
 
 ## 🚧 Project Structure
 
-📁 project-root/
+```
+project-root/
 ├── server.js
 ├── data.json
 ├── package.json
 ├── views/
-│ └── index.ejs
+│   └── index.ejs
 ├── public/
-│ ├── style.css # 🌈 Styles moved here
-│ └── favicon.png
+│   ├── style.css       # 🌈 Styles moved here
+│   └── favicon.png
+```
+
+---
+
+## 📦 Install & Run Locally
+
+```bash
+git clone https://github.com/ovidiuchis/tug.git
+cd link-shortener
+npm install
+node server.js
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+
+## 📄 License
+
+MIT — do whatever you want with it.
+Credits welcome, but not required. 😄
